@@ -27,8 +27,11 @@ if token:
 
         if track == None:
             print("No song")
+            trackname = "No song"
+        else:
+            trackname = track["item"]["name"]
 
-        trackname = track["item"]["name"]
+
 
 
         lengthTrackName = len(trackname)
