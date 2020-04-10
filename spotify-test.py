@@ -6,7 +6,7 @@ scope = 'user-library-read'
 username = 11128384099
 client_id='00a9dbf9b38c43cab7af45948c50bffd'
 client_secret='b5169129acbb4ad1b574ffd2e113c1f0',
-redirect_uri='http://raspotify-display.alexcraven.com/
+redirect_uri='http://raspotify-display.alexcraven.com/'
 
 
 #if len(sys.argv) > 1:
