@@ -13,7 +13,7 @@ def loop():
     while(True):
         # lcd.clear()
         lcd.setCursor(0 ,0)  # set cursor position
-        lcd.message(trackname +'\n')  # display Track name
+        lcd.message(getsong())  # display Track name
         # lcd.message( get_time_now() )   # display the time
         sleep(1)
 
