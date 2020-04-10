@@ -3,10 +3,15 @@ import spotipy
 import spotipy.util as util
 
 scope = 'user-library-read'
-username = 11128384099
+username = '11128384099'
 client_id='00a9dbf9b38c43cab7af45948c50bffd'
+<<<<<<< HEAD
+client_secret='b5169129acbb4ad1b574ffd2e113c1f0',
+redirect_uri='http://localhost/'
+=======
 client_secret='b5169129acbb4ad1b574ffd2e113c1f0'
 redirect_uri='http://raspotify-display.alexcraven.com/'
+>>>>>>> 6e436d91989c414dbacc6d5adc919f0ce8ec464d
 
 
 #if len(sys.argv) > 1:
