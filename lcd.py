@@ -4,8 +4,7 @@ from Adafruit_LCD1602 import Adafruit_CharLCD
 from time import sleep, strftime
 from datetime import datetime
 
-from main import getsong()
-
+from main import getsong
 
 def loop():
     mcp.output(3 ,1)     # turn on LCD backlight
@@ -13,7 +12,7 @@ def loop():
     while(True):
         # lcd.clear()
         lcd.setCursor(0 ,0)  # set cursor position
-        lcd.message(getsong())  # display Track name
+        lcd.message(getsong() +'\n')  # display Track name
         # lcd.message( get_time_now() )   # display the time
         sleep(1)
 
