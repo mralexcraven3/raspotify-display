@@ -17,7 +17,7 @@ token = util.prompt_for_user_token(username,
                            scope,
                            client_id='00a9dbf9b38c43cab7af45948c50bffd',
                            client_secret='b5169129acbb4ad1b574ffd2e113c1f0',
-                           redirect_uri='https://localhost/')
+                           redirect_uri='https://raspotify-display.alexcraven.com/')
 
 if token:
     sp = spotipy.Spotify(auth=token)
