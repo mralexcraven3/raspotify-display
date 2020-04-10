@@ -3,6 +3,7 @@ import spotipy
 import spotipy.util as util
 
 scope = 'user-library-read'
+username = 11128384099
 
 if len(sys.argv) > 1:
     username = sys.argv[1]
